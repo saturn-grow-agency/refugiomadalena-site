@@ -1,4 +1,4 @@
-// Reserva 69
+// Refúgio Madalena
 // Scripts principais do site
 
-console.log("Reserva 69 — site carregado.");
+console.log("Refúgio Madalena — site carregado.");
