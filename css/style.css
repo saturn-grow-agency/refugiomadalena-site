@@ -229,7 +229,7 @@ p {
 } 
 
 .nav-menu a { 
-   font-size: 0.78rem; 
+   font-size: 0.120rem; 
    font-weight: 600; 
    letter-spacing: 0.05em; 
    transition: var(--transition); 
@@ -237,6 +237,7 @@ p {
 
 .nav-menu a:hover { 
    color: var(--accent); 
+   font-size: 0.180rem; 
 } 
 
 .nav-button { padding: 0.75rem 1.2rem; }
