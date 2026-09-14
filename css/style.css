@@ -276,10 +276,10 @@ p {
     inset: 0;
     background: linear-gradient(
         90deg,
-        rgba(0, 0, 0, 0.60) 0%,
-        rgba(0, 0, 0, 0.45) 40%,
-        rgba(0, 0, 0, 0.20) 75%,
-        rgba(0, 0, 0, 0.05) 100%
+        rgba(0, 0, 0, 0.90) 0%,
+        rgba(0, 0, 0, 0.70) 40%,
+        rgba(0, 0, 0, 0.50) 75%,
+        rgba(0, 0, 0, 0.20) 100%
     );
     z-index: 1;
 }
@@ -352,6 +352,19 @@ p {
     font-size: 1.2rem;
 }
 
+
+/*
+
+.hero-content {
+     padding-top: 50px;
+}
+
+
+.container hero-content {
+     padding-top: 50px;
+}
+
+*/
 
 /* =========================================================
    6. SEÇÕES GERAIS
