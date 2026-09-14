@@ -276,12 +276,17 @@ p {
     inset: 0;
     background: linear-gradient(
         90deg,
-        rgba(0, 0, 0, 0.55) 0%,
-        rgba(0, 0, 0, 0.40) 40%,
-        rgba(0, 0, 0, 0.15) 75%,
+        rgba(0, 0, 0, 0.60) 0%,
+        rgba(0, 0, 0, 0.45) 40%,
+        rgba(0, 0, 0, 0.20) 75%,
         rgba(0, 0, 0, 0.05) 100%
     );
     z-index: 1;
+}
+
+
+.hero-content {
+    transform: translateY(60px);
 }
 
 
