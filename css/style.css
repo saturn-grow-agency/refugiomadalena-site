@@ -118,7 +118,7 @@ h3 {
 
 p {
     color: var(--text-light);
-    font-size: 50px;
+    font-size: 16px;
 }
 
 
@@ -127,12 +127,18 @@ p {
 
     margin-bottom: 1.5rem;
 
-    font-size: 16px;
+    font-size: 25px;
     font-weight: 700;
 
     letter-spacing: 0.18em;
 
     color: var(--accent);
+}
+
+.p-text {
+   font-size: 30px;
+
+   
 }
 
 
