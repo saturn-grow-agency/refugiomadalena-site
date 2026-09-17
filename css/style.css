@@ -515,7 +515,7 @@ p {
 
 
 .experience-card-content p {
-    font-size: 0.95rem;
+    font-size: 25px;
 }
 
 
@@ -1300,3 +1300,67 @@ a:focus-visible {
 
     color: white;
 }
+
+
+
+
+
+/* =========================================================
+   2... TIPOGRAFIA
+========================================================= */
+
+h1,
+h2,
+h3 {
+    font-weight: 400;
+    line-height: 1.1;
+}
+
+
+h1,
+h2 {
+    font-family: var(--serif);
+}
+
+
+h1 {
+    font-size: clamp(3.5rem, 8vw, 7.5rem);
+}
+
+
+h2 {
+    font-size: clamp(2.5rem, 5vw, 5rem);
+}
+
+
+h3 {
+    font-size: 1.5rem;
+}
+
+
+p {
+    color: var(--text-light);
+    font-size: 25px;
+    
+}
+
+
+.eyebrow {
+    display: inline-block;
+
+    margin-bottom: 1.5rem;
+
+    font-size: 16px;
+    font-weight: 700;
+
+    letter-spacing: 0.18em;
+
+    color: var(--accent);
+}
+
+.p-text {
+   font-size: 25px;
+   font-weight: 300;
+   
+}
+
