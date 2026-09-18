@@ -399,7 +399,7 @@ p {
 
 
 .section-heading p {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 
@@ -428,16 +428,17 @@ p {
 }
 
 
+.about-text p {
+    font-size: 20px;
+}
+
+
 .about-text p:not(.eyebrow) {
     max-width: 540px;
 
     margin-bottom: 1.2rem;
 
     font-size: 25px;
-}
-
-.about-text p {
-    font-size: 30px;
 }
 
 
@@ -554,6 +555,11 @@ p {
 }
 
 
+.accommodation-content p {
+    font-size: 25px;
+}
+
+
 .accommodation-content {
     padding: 2.5rem;
 }
@@ -590,9 +596,6 @@ p {
     color: var(--accent);
 }
 
-.accommodation-content p {
-    font-size: 25px;
-}
 
 /* =========================================================
    10. GALERIA
@@ -668,6 +671,11 @@ p {
 /* =========================================================
    11. SÃO PAULO
 ========================================================= */
+
+
+.city-content p {
+   font-size: 20px;
+}
 
 .city-section {
     display: grid;
@@ -755,13 +763,18 @@ p {
     font-size: 1.05rem;
 }
 
-.city-content p {
-   font-size: 25px;
-}
+
 
 /* =========================================================
    12. LOCALIZAÇÃO
 ========================================================= */
+
+
+.location-content p {
+    font-size: 20px;
+}
+
+
 
 .location {
     background: var(--background-light);
@@ -793,9 +806,7 @@ p {
 }
 
 
-.location-content p {
-    font-size: 25px;
-}
+
 
 
 .location-info {
