@@ -269,8 +269,6 @@ p {
     overflow: hidden;
 
     background: #222;
-
-    
 }
 
 
@@ -353,7 +351,7 @@ p {
 
     color: white;
 
-    font-size: 1.2rem;
+    font-size: 0.7rem;
 
     letter-spacing: 0.1em;
 
@@ -401,7 +399,7 @@ p {
 
 
 .section-heading p {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 
@@ -431,7 +429,7 @@ p {
 
 
 .about-text p {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 
@@ -440,7 +438,7 @@ p {
 
     margin-bottom: 1.2rem;
 
-    font-size: 18px;
+    font-size: 25px;
 }
 
 
@@ -558,7 +556,7 @@ p {
 
 
 .accommodation-content p {
-    font-size: 18px;
+    font-size: 25px;
 }
 
 
@@ -569,8 +567,6 @@ p {
 
 .accommodation-content .eyebrow {
     margin-bottom: 0.8rem;
-    font-size: 1rem;
-    
 }
 
 
@@ -579,7 +575,7 @@ p {
 
     font-family: var(--serif);
 
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 
@@ -591,7 +587,7 @@ p {
 
 
 .accommodation-content a {
-    font-size: 14px;
+    font-size: 20px;
 
     font-weight: 700;
 
@@ -678,7 +674,7 @@ p {
 
 
 .city-content p {
-   font-size: 18px;
+   font-size: 20px;
 }
 
 .city-section {
@@ -775,7 +771,7 @@ p {
 
 
 .location-content p {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 
@@ -917,25 +913,6 @@ p {
 
     color: var(--accent-dark);
 }
-
-
-.container p {
-   font-size: 1.05rem;
-}
-
-
-
-.container p:not(.eyebrow) {
-    max-width: 550px;
-
-    margin: 0 auto 2.5rem;
-
-    color: rgba(255, 255, 255, 0.8);
-
-    font-size: 1.05rem;
-}
-
-
 
 
 /* =========================================================
