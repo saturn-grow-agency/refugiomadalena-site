@@ -573,7 +573,7 @@ p {
 .accommodation-content h3 {
     margin-bottom: 1rem;
 
-    font-family: var(--serif);
+    font-family: var(--serif); 
 
     font-size: 18px;
 }
