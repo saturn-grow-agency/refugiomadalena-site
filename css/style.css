@@ -1766,7 +1766,10 @@ p {
 
     h1 {
 
-      font-size: clamp(2.8rem, 14vw, 4.5rem); 
+       /*
+      font-size: clamp(2.8rem, 14vw, 4.5rem); */
+
+        font-size: 40px; 
 
         line-height: 0.98;
     }
