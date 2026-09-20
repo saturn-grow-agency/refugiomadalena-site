@@ -132,7 +132,7 @@ h3 {
 
 h1 {
  /*   font-size: clamp(3.5rem, 8vw, 7.5rem); */
-    font-size: 3.5rem;
+    font-size: 4rem;
     font-weight: 800;
 }
 
@@ -140,7 +140,7 @@ h2 {
   /*
    font-size: clamp(2.5rem, 5vw, 5rem);
 */
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 800;
 }
 
@@ -260,7 +260,7 @@ p {
 
 .logo {
     font-family: var(--display);
-    font-size: 1.0rem;
+    font-size: 1.5rem;
     font-weight: 800;
     white-space: nowrap;
 }
@@ -273,7 +273,7 @@ p {
 } 
 
 .nav-menu a { 
-   font-size: 13px; 
+   font-size: 15px; 
    font-weight: 600; 
    letter-spacing: 0.05em; 
    transition: var(--transition); 
@@ -1900,7 +1900,8 @@ a:focus-visible {
 }
 
 
-.accommodation-content {
+.accommodation-content p {
+       text-align: center;
 
 }
 
