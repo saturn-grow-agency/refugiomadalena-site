@@ -1608,3 +1608,37 @@ a:focus-visible {
         height: 300px;
     }
 }
+
+
+
+
+
+/* DESKTOP */
+#acomodacoes .carousel-control-prev,
+#acomodacoes .carousel-control-next {
+    top: 0;
+    bottom: auto;
+    width: 55px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* TABLET */
+@media (max-width: 768px) {
+    #acomodacoes .carousel-control-prev,
+    #acomodacoes .carousel-control-next {
+        height: 300px;
+    }
+}
+
+
+/* CELULAR */
+@media (max-width: 480px) {
+    #acomodacoes .carousel-control-prev,
+    #acomodacoes .carousel-control-next {
+        height: 230px;
+    }
+}
