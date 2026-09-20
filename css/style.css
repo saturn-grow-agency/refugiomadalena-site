@@ -24,8 +24,8 @@
 
     --container: 1200px;
 
-    --serif: Georgia, "Times New Roman", serif;
-    --sans: Arial, Helvetica, sans-serif;
+    --display: "Pretta", "Montserrat", sans-serif;
+    --sans: "Montserrat", sans-serif;
 
     --transition: 0.3s ease;
 }
@@ -48,6 +48,30 @@ main {
 }
 
 
+
+body {
+    font-family: var(--sans);
+    background: var(--background-dark);
+    color: var(--text);
+    line-height: 1.6;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--background-dark);
+}
+
+.footer {
+    margin: 0;
+}
+
+/*
+
 body {
     font-family: var(--sans);
     background: var(--background);
@@ -56,6 +80,8 @@ body {
     overflow-x: hidden;
     
 }
+
+*/
 
 
 img {
@@ -87,48 +113,51 @@ a {
    2. TIPOGRAFIA
 ========================================================= */
 
+body {
+    font-family: var(--sans);
+    font-weight: 400;
+    background: var(--background-dark);
+    color: var(--text);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
 h1,
 h2,
 h3 {
-    font-weight: 400;
+    font-family: var(--display);
+    font-weight: 800;
     line-height: 1.1;
 }
 
-
-h1,
-h2 {
-    font-family: var(--serif);
-}
-
-
 h1 {
     font-size: clamp(3.5rem, 8vw, 7.5rem);
+    font-weight: 800;
 }
-
 
 h2 {
     font-size: clamp(2.5rem, 5vw, 5rem);
+    font-weight: 800;
 }
-
 
 h3 {
     font-size: 1.5rem;
+    font-weight: 700;
 }
-
 
 p {
     color: var(--text-light);
-    
+    font-weight: 400;
 }
-
 
 .eyebrow {
     display: inline-block;
 
     margin-bottom: 1.5rem;
 
-    font-size: 16px;
-    font-weight: 700;
+    font-family: var(--sans);
+    font-size: 0.85rem;
+    font-weight: 800;
 
     letter-spacing: 0.18em;
 
@@ -225,11 +254,12 @@ p {
    gap: 2rem; 
 } 
 
-.logo { 
-   font-family: var(--serif); 
-   font-size: 1.5rem; 
-   white-space: nowrap; 
-} 
+.logo {
+    font-family: var(--display);
+    font-size: 1.5rem;
+    font-weight: 800;
+    white-space: nowrap;
+}
 
 .nav-menu { 
    display: flex; 
@@ -573,9 +603,9 @@ p {
 .accommodation-content h3 {
     margin-bottom: 1rem;
 
-    font-family: var(--serif); 
-
-    font-size: 18px;
+    font-family: var(--display);
+    font-size: 1.3rem;
+    font-weight: 800;
 }
 
 
@@ -942,9 +972,9 @@ p {
 .footer-brand h3 {
     margin-bottom: 0.8rem;
 
-    font-family: var(--serif);
-
+    font-family: var(--display);
     font-size: 2rem;
+    font-weight: 800;
 }
 
 
@@ -1614,3 +1644,257 @@ a:focus-visible {
     background: #005bbd;
     box-shadow: 0 5px 15px rgba(0, 108, 228, 0.2);
 }
+
+
+
+
+/* ==========================================
+   CARROSSEL DE ACOMODAÇÕES - BOOTSTRAP
+   ========================================== */
+
+#acomodacoes .accommodation-carousel {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+/* Área de cada slide */
+#acomodacoes .carousel-item {
+    text-align: center;
+}
+
+/* Imagem da acomodação */
+#acomodacoes .carousel-item img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+/* Conteúdo abaixo da imagem */
+#acomodacoes .carousel-caption {
+    position: static;
+    padding: 18px 15px 8px;
+    color: inherit;
+    text-align: center;
+}
+
+/* Título da acomodação */
+#acomodacoes .carousel-caption h3 {
+    margin-bottom: 8px;
+    font-family: var(--display);
+    font-size: 1.4rem;
+    font-weight: 800;
+    line-height: 1.2;
+    text-align: center;
+}
+
+/* Descrição */
+#acomodacoes .carousel-caption p {
+    margin: 0 auto 15px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* Indicadores */
+#acomodacoes .carousel-indicators {
+    position: static;
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+
+/* Setas laterais */
+#acomodacoes .carousel-control-prev,
+#acomodacoes .carousel-control-next {
+    top: 0;
+    bottom: auto;
+    height: 320px;
+    width: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Ícones das setas */
+#acomodacoes .carousel-control-prev-icon,
+#acomodacoes .carousel-control-next-icon {
+    width: 36px;
+    height: 36px;
+
+    background-color: rgba(0, 0, 0, 0.6);
+
+    border-radius: 50%;
+
+    background-size: 50%;
+
+    transition: transform 0.25s ease,
+                background-color 0.25s ease;
+}
+
+#acomodacoes .carousel-control-prev:hover .carousel-control-prev-icon,
+#acomodacoes .carousel-control-next:hover .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.8);
+    transform: scale(1.08);
+}
+
+
+/* ==========================================
+   BOTÕES DE RESERVA
+   ========================================== */
+
+#acomodacoes .booking-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+#acomodacoes .booking-option {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    padding: 9px 15px;
+
+    border-radius: 6px;
+
+    text-decoration: none;
+
+    font-family: var(--sans);
+    font-size: 0.82rem;
+    font-weight: 700;
+
+    transition:
+        transform 0.3s ease,
+        opacity 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+#acomodacoes .booking-option:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+
+
+/* RESERVA DIRETA */
+
+#acomodacoes .booking-option.direct {
+    background: #222;
+    color: #fff;
+}
+
+
+/* AIRBNB */
+
+#acomodacoes .booking-option.airbnb {
+    background: #fff;
+    color: #ff385c;
+    border: 1px solid #ff385c;
+}
+
+
+/* BOOKING */
+
+#acomodacoes .booking-option.booking {
+    background: #006ce4;
+    color: #fff;
+}
+
+
+/* ==========================================
+   TABLET
+   ========================================== */
+
+@media (max-width: 768px) {
+
+    #acomodacoes .accommodation-carousel {
+        max-width: 90%;
+    }
+
+    #acomodacoes .carousel-item img {
+        height: 280px;
+    }
+
+    #acomodacoes .carousel-caption {
+        padding: 15px 10px 5px;
+    }
+
+    #acomodacoes .carousel-caption h3 {
+        font-size: 1.2rem;
+    }
+
+    #acomodacoes .carousel-caption p {
+        font-size: 0.88rem;
+    }
+
+    #acomodacoes .carousel-control-prev,
+    #acomodacoes .carousel-control-next {
+        height: 280px;
+        width: 45px;
+    }
+
+    #acomodacoes .carousel-control-prev-icon,
+    #acomodacoes .carousel-control-next-icon {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+
+/* ==========================================
+   CELULAR
+   ========================================== */
+
+@media (max-width: 480px) {
+
+    #acomodacoes .accommodation-carousel {
+        max-width: 100%;
+    }
+
+    #acomodacoes .carousel-item img {
+        height: 230px;
+        border-radius: 8px;
+    }
+
+    #acomodacoes .carousel-caption {
+        padding: 12px 5px 5px;
+    }
+
+    #acomodacoes .carousel-caption h3 {
+        font-size: 1.1rem;
+    }
+
+    #acomodacoes .carousel-caption p {
+        font-size: 0.85rem;
+    }
+
+    #acomodacoes .carousel-control-prev,
+    #acomodacoes .carousel-control-next {
+        height: 230px;
+        width: 40px;
+    }
+
+    #acomodacoes .carousel-control-prev-icon,
+    #acomodacoes .carousel-control-next-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    #acomodacoes .booking-options {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    #acomodacoes .booking-option {
+        width: 100%;
+    }
+}
+
+
+
+
