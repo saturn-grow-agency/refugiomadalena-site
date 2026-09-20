@@ -1534,3 +1534,83 @@ a:focus-visible {
         width: 100%;
     }
 }
+
+
+
+
+
+.booking-options {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 18px;
+}
+
+.booking-option {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    padding: 10px 16px;
+
+    border-radius: 6px;
+    text-decoration: none;
+
+    font-size: 0.85rem;
+    font-weight: 600;
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease,
+        opacity 0.25s ease;
+}
+
+.booking-option i {
+    font-size: 0.95rem;
+}
+
+.booking-option:hover {
+    transform: translateY(-2px);
+}
+
+
+/* RESERVA DIRETA */
+
+.booking-option.direct {
+    background: #222;
+    color: #fff;
+}
+
+.booking-option.direct:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.18);
+}
+
+
+/* AIRBNB */
+
+.booking-option.airbnb {
+    background: #fff;
+    color: #ff385c;
+    border: 1px solid #ff385c;
+}
+
+.booking-option.airbnb:hover {
+    background: #ff385c;
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(255, 56, 92, 0.2);
+}
+
+
+/* BOOKING */
+
+.booking-option.booking {
+    background: #006ce4;
+    color: #fff;
+}
+
+.booking-option.booking:hover {
+    background: #005bbd;
+    box-shadow: 0 5px 15px rgba(0, 108, 228, 0.2);
+}
