@@ -1423,8 +1423,7 @@ a:focus-visible {
         transform 0.25s ease,
         background-color 0.25s ease;
 
-   align-items: center;
-    justify-content: center;
+
 }
 
 #acomodacoes .carousel-control-prev:hover .carousel-control-prev-icon,
