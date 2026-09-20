@@ -1591,3 +1591,18 @@ a:focus-visible {
 .footer {
     margin-bottom: 0;
 }
+
+
+
+#acomodacoes .accommodation-card img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+
+@media (max-width: 768px) {
+    #acomodacoes .accommodation-card img {
+        height: 300px;
+    }
+}
