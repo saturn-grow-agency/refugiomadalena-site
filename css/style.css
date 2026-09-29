@@ -2369,7 +2369,7 @@ align-items: center;
 
 width: auto;
 
-height: 100px;
+height: auto;
 
 flex-shrink: 0;
 
@@ -2383,9 +2383,9 @@ display: block;
 
 width: auto;
 
-height: 100%;
+width: 200px;
 
-width: 100px;
+height: auto;
 
 max-width: 220px;
 
