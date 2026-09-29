@@ -2348,3 +2348,113 @@ a:focus-visible {
         font-size: 2.2rem;
     }
 }
+
+
+
+
+
+
+/* =========================================================
+   21. LOGO
+========================================================= */
+
+
+
+.logo {
+
+
+display: flex;
+
+align-items: center;
+
+width: auto;
+
+height: 50px;
+
+flex-shrink: 0;
+
+
+}
+
+.logo img {
+
+
+display: block;
+
+width: auto;
+
+height: 100%;
+
+max-width: 220px;
+
+object-fit: contain;
+
+
+}
+
+
+@media (max-width: 900px) {
+
+   
+.logo {
+
+height: 42px;
+
+}
+
+   
+.logo img {
+
+max-width: 190px;
+
+}
+
+   
+}
+
+
+
+@media (max-width: 600px) {
+
+   
+   
+.logo {
+
+height: 38px;
+
+max-width: 60%;
+
+}
+
+   
+.logo img {
+
+max-width: 170px;
+
+}
+
+
+   
+}
+
+
+@media (max-width: 480px) {
+
+   
+   
+.logo {
+
+height: 34px;
+
+max-width: 58%;
+
+}
+
+   
+.logo img {
+
+max-width: 150px;
+
+}
+
+}
