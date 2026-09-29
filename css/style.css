@@ -2460,3 +2460,48 @@ max-width: 150px;
 }
 
 }
+
+
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 82px;
+
+    z-index: 1000;
+
+    padding: 0;
+
+    background: rgba(247, 245, 241, 0.92);
+    backdrop-filter: blur(12px);
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+    height: 50px;
+    width: auto;
+
+    flex-shrink: 0;
+}
+
+.logo img {
+    display: block;
+
+    width: auto;
+    height: 50px;
+
+    max-width: 260px;
+
+    object-fit: contain;
+
+    transform: scale(1.35);
+    transform-origin: left center;
+}
